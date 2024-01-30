@@ -26,7 +26,7 @@ export default function Register() {
       className="flex items-center justify-center min-h-screen bg-cover"
       style={{ backgroundImage: `url(${bgAuth})` }}
     >
-      <div className="flex w-full max-w-screen-lg overflow-hidden shadow-xl card card-side bg-base-100">
+      <div className="flex w-full max-w-screen-lg m-5 overflow-hidden shadow-xl card card-side" style={{ backgroundColor: '#DBDFE2' }}>
         <div
           className="hidden w-6/12 p-8 md:block"
           style={{ backgroundImage: `url(${left})`, backgroundSize: "cover" }}
@@ -40,34 +40,37 @@ export default function Register() {
           <ImageAuth />
         </div>
         <div className="w-full p-4 md:w-5/12 card-body md:p-8">
-          <h2 className="mb-4 text-4xl font-extrabold text-center">
+          <h2 className="mt-5 mb-4 text-4xl font-extrabold text-center">
             Create Account
           </h2>
           <center>
-            <div>
+            <div className="m-5">
               <input
                 type="text"
                 placeholder="Name"
+                style={{ backgroundColor: '#DBDFE2' }}
                 className="w-full max-w-xs py-2 mt-5 mb-3 border-b-2 border-black focus:outline-none focus:border-indigo-500"
               />
               <input
                 type="text"
                 placeholder="Email"
+                style={{ backgroundColor: '#DBDFE2' }}
                 className="w-full max-w-xs py-2 mb-3 border-b-2 border-black focus:outline-none focus:border-indigo-500"
               />
               <input
                 type="text"
                 placeholder="Password"
+                style={{ backgroundColor: '#DBDFE2' }}
                 className="w-full max-w-xs py-2 mb-3 border-b-2 border-black focus:outline-none focus:border-indigo-500"
               />
             </div>
           </center>
-          <div className="flex items-center mt-4 md:mt-8">
+          <div className="flex items-center justify-center px-5 mt-4 md:mt-8" style={{ fontFamily: 'Poppins' }}>
             <input type="checkbox" className="mr-1" />
             <span className="text-xs">
-              I agree to the{" "}
+            Saya setuju dengan <span className="text-blue-500">syarat</span> dan ketentuan serta {" "} 
               <a href="#" className="text-blue-500">
-                terms and conditions
+              Kebijakan Privasi
               </a>
             </span>
           </div>

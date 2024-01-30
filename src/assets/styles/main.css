@@ -1554,6 +1554,10 @@ html{
   z-index: 20;
 }
 
+.m-5{
+  margin: 1.25rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -1655,6 +1659,10 @@ html{
   grid-auto-flow: column;
 }
 
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -1697,11 +1705,6 @@ html{
   border-color: rgb(31 41 55 / var(--tw-border-opacity));
 }
 
-.bg-base-100{
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
-}
-
 .bg-cst-orange{
   --tw-bg-opacity: 1;
   background-color: rgb(248 87 88 / var(--tw-bg-opacity));
@@ -1729,8 +1732,17 @@ html{
   padding: 1rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .p-8{
   padding: 2rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-6{
@@ -1756,6 +1768,10 @@ html{
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
